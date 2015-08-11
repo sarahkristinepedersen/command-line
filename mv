@@ -1,0 +1,4 @@
+The mv command is used for moving or renaming files from the command line.
+The mv command takes two parameters; file to be moved (and path if outside of working directory) and destination 
+The move syntax: mv filename /destination/directory
+The rename syntax: mv oldname newname (e.g. mv hello.txt hi.txt)
