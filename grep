@@ -1,0 +1,5 @@
+The grep command searches (an empty expression matches every line) and takes two parameters (first; word you want to search for, second; the files you want to search through).
+grep takes a regular expression as an input. A regular expression describes the pattern that you are looking for. It's similar to wildcards (the *) but it's orders of magnitude more powerful. For example, the following command would look for all files that have numbers in the filename. You can't do this with wildcards but you can with regular expressions.	find ~ -name "*" -print | grep "\d+" (or "\d\+").
+Syntaxt: grep searched-word *.file-suffix or filename
+Grep can also be used to e.g. print all text files in the a directory that have "searched-word" in their name. All files will be directed to grep and files containing “searched-word” will be printed (remember quotes around *.file-suffix).
+Syntaxt: find ~ -name "*.txt" -print | grep searched-word
