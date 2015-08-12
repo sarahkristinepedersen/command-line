@@ -1,0 +1,7 @@
+The wc command gives us the word/character/byte/line count
+Syntax: wc text.file-suffix
+The wc command shows the number of lines, words, and bytes in a certain file.
+wc -c (number of bytes) 
+wc -l (number of lines)
+wc -m (number of characters)
+wc -w (number of words)
